@@ -1,6 +1,12 @@
-Demo: https://contact.algofam.tech
+Demo: https://contact.algofam.tech  
+
+Source Code: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server  
+
 
 --- 
+
+---
+
 
 # Send Email from a *Static* HTML Form using Google Apps Mail!
 
