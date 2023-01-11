@@ -3,6 +3,8 @@
 :root {
     --textColor: #FFFFFF;
     --font: 'Karla', sans-serif;
+    --coffeeYellow: #FFDD00;
+    --coffeeText: #000000;
 }
 
 body {
