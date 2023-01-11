@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+:root {
+    --textColor: #FFFFFF;
+    --font: 'Karla', sans-serif;
+}
+
 body {
   margin: 2em;
 }
@@ -20,6 +27,13 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 2em 0 1em;
+}
+
+.twitter, .telegram {
+    color: var(--coffeeYellow);
+    background: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .button-success {
