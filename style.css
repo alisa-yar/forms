@@ -1,16 +1,19 @@
 body {
   margin: 2em;
 }
-aside {
+
+.describe {
     background: #1f8dd6; /* same color as selected state on site menu */
     padding: 0.3em 1em;
     border-radius: 3px;
     color: #fff;
     margin-bottom: 2em;
 }
+
 textarea {
   width: 100%;
 }
+
 .content-head {
   font-weight: 400;
   text-transform: uppercase;
