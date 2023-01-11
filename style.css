@@ -34,7 +34,8 @@ textarea {
 .twitter, .telegram {
     color: var(--coffeeYellow);
     background: none;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--coffeeYellow);
     -webkit-tap-highlight-color: transparent;
 }
 
