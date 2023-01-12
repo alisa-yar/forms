@@ -81,12 +81,9 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-/*textarea {
-    max-width: 675px;
-    width: auto;
-    display: block;
-    margin: 27px auto;
-}*/
+textarea {
+    width: 100%;
+}
 
 button {
   float: right;
