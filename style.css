@@ -33,7 +33,7 @@ form {
 }
 
 .description {
-    color: #eee;
+  color: #eee;
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -49,10 +49,9 @@ form {
 }
 
 .sheet {
-    max-width: 675px;
-    width: auto;
-    display: block;
-    margin: 27px auto;
+    height: 50px;
+  position: relative;
+  width: 100%;
 }
 
 .name, .mail, .links {
@@ -75,10 +74,16 @@ form {
 }
 
 input, textarea {
-  width: 100%;
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
   box-sizing: border-box;
-  border: var(--textColor) 2px;
-  text-align: left;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
 } 
 
 
