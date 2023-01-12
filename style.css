@@ -11,7 +11,7 @@ html {
     margin: 0;
     hight: 100%;
 
-    background-color: #15172b;
+    background-color: #2d2d2d;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,7 +25,6 @@ html {
 }
 
 body {
-    background-color: #2d2d2d;
     margin: 0;
     padding-top: 85px;
     height: fit-content;
