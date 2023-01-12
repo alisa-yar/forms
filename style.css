@@ -67,7 +67,7 @@ form {
   max-width: 675px;
   width: 100%;
   display: block;
-  position: center;
+  position: relative;
   margin: 27px auto;
   padding: 20px;
   box-sizing: border-box;
@@ -75,8 +75,7 @@ form {
   color: var(--textColor);
 }
 
-.name, .mail, .links, .submit {
-   position: center;
+.name, .mail, .links {
    border-color: transparent;
    border-radius: 12px;
    font-size: 18px;
@@ -110,5 +109,11 @@ button {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  border-radius: 12px;
+  /*margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px; 
+  box-sizing: border-box;*/
   text-align: center;
 }
