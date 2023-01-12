@@ -25,6 +25,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.header {
+    font-size: 4rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -58,7 +66,7 @@ body {
 
 .name, .mail, .links {
     position: relative;
-    background-color: grey;
+    background-color: transparent;
     color: var(--textColor);
     border: solid var(--textColor) 2px;
     border-radius: 10px;
@@ -71,23 +79,11 @@ body {
     padding: 10px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
-    
-    
 }
 
 textarea {
   width: 100%;
 }
-
-.content-head {
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 2em 0 1em;
-}
-
-
 
 .button-success {
   color: var(--textColor);
