@@ -65,12 +65,12 @@ body {
   max-width: 675px;
   width: 100%;
   display: block;
-  position: relative;
-  /*margin: 27px auto;*/
+  position: center;
+  margin: 27px auto;
   padding: 20px;
   background-color: transparent;
   color: var(--textColor);
-        box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .name, .mail, .links {
@@ -80,7 +80,7 @@ body {
    outline: 0;
    padding: 10px; 
    box-sizing: border-box;
-     width: 100%;
+   width: 100%;
 }
 
 input, textarea {
