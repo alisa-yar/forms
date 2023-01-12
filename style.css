@@ -90,10 +90,12 @@ input, textarea {
   width: 100%;
   box-sizing: border-box;
   border: var(--textColor) 2px;
+  text-align: left;
 } 
 
+
 .button {
-   float: relative;
-   position: relative;
+   float: center;
+   position: center;
 }
 
