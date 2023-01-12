@@ -88,7 +88,7 @@ form {
    box-sizing: border-box;
 }
 
-input, textarea, button {
+input, textarea {
   background-color: var(--bgInput);
   border-radius: 12px;
   border: 0;
@@ -100,8 +100,15 @@ input, textarea, button {
   box-sizing: border-box;
 }
 
-.submit {
+button {
   background-color: var(--blueText);
   color: var(--textColor);
+  border-radius: 12px;
+  border: 0;
+  font-size: 18px;
+  outline: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
   text-align: center;
 }
