@@ -74,7 +74,7 @@ body {
   color: var(--textColor);
 }
 
-.name, .mail, .links, .submit {
+.name, .mail, .links {
    position: relative;
    border-color: transparent;
    border-radius: 12px;
@@ -86,7 +86,7 @@ body {
    padding: 10px; 
 }
 
-input, textarea {
+input, textarea, .submit {
   background-color: var(--bgInput);
   border-radius: 12px;
   border: 0;
