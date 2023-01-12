@@ -38,6 +38,8 @@ body {
     font-size: 72px;
     color: white;
     text-align: center;
+    line-height: 1.25;
+    display: block;
 }
 
 .description {
