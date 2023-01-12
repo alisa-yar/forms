@@ -16,7 +16,6 @@
 * { 
     margin: 0;
     padding: 0;
-            box-sizing: border-box;
 }
 
 html {
@@ -30,6 +29,7 @@ html {
     font-family: var(--font);
     color: var(--textColor);
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .header {
@@ -37,7 +37,6 @@ html {
     font-weight: 600;
     font-size: 72px;
     text-align: center;
-    display: block;
 }
 
 .description {
