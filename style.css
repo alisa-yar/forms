@@ -13,13 +13,15 @@
     --bgInput: #444442;
 }
 
-* {
-  box-sizing: border-box;
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     margin: 0;
-    hight: 100%;
+    height: 100%;
 
     background-color: var(--bgColor);
     display: flex;
@@ -107,11 +109,13 @@ input, textarea {
   background-color: var(--blueText);
   border-radius: 12px;
   border: 0;
+  box-sizing: border-box;
   color: var(--textColor);
   cursor: pointer;
   font-size: 18px;
   height: 50px;
   margin-top: 38px;
+  outline: 0;
   text-align: center;
   width: 100%;
 }
