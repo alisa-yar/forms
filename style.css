@@ -75,14 +75,13 @@ body {
 
 .name, .mail, .links {
    background-color: transparent;
-   font-weight: bold;
-   text-align: center;
    /*border: solid var(--textColor) 2px;*/
    border-color: transparent;
-   border-radius: 10px;
-   font-size: 1rem;
+   border-radius: 12px;
+   font-size: 18px;
    text-align: right;
    display: block;
+   outline: 0;
    margin-left: 10px;
    margin-right: 10px;
    margin-bottom: 10px;
