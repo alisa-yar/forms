@@ -87,11 +87,19 @@ body {
 }
 
 input, textarea {
-  width: 100%;
+  /*width: 100%;
   box-sizing: border-box;
   border: var(--textColor) 2px;
-  text-align: left;
-} 
+  text-align: left;*/
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
 
 
 .submit {
