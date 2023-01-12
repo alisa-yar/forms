@@ -63,10 +63,11 @@ body {
     min-height: 100%;
 }
 
-.form {
+form {
   max-width: 675px;
   width: 100%;
   display: block;
+  position: center;
   margin: 27px auto;
   padding: 20px;
   box-sizing: border-box;
