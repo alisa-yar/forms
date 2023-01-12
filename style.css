@@ -63,7 +63,7 @@ body {
 .sheet {
     max-width: 675px;
     width: auto;
-    display: block;
+    display: inline-block;
     margin: 27px auto;
 }
 
@@ -77,7 +77,7 @@ body {
     border-radius: 10px;
     font-size: 1rem;
     text-align: right;
-    display: block;
+    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
