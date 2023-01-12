@@ -36,7 +36,6 @@ html {
     font-family: var(--headerFont);
     font-weight: 600;
     font-size: 72px;
-    color: var(--textColor);
     text-align: center;
     line-height: 1.25;
     display: block;
@@ -55,7 +54,6 @@ html {
 .twitter, .telegram {
     color: var(--blueText);
     text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -71,43 +69,40 @@ body {
   display: block;
   margin: 27px auto;
   padding: 20px;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
+  position: center;
 }
 
-.name, .mail, .links {
-    position: center;
-    background-color: transparent;
-    color: var(--textColor);
-    font-weight: bold;
-    text-align: center;
-    /*border: solid var(--textColor) 2px;*/
-    border-radius: 10px;
-    font-size: 1rem;
-    text-align: right;
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px; 
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;  
-}
+/*.name, .mail, .links {
+   background-color: transparent;
+   font-weight: bold;
+   text-align: center;
+   border: solid var(--textColor) 2px;
+   border-radius: 10px;
+   font-size: 1rem;
+   text-align: right;
+   display: block;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   padding: 10px; 
+}*/
 
 input, textarea {
-  text-align: left;
-  padding: 20px;
-  border: 0;
-  width: 100%;
-  font-size: 1rem;
   background-color: var(--bgInput);
-  border-radius: 3px;
+  border-radius: 12px;
+  border: 0;
+  font-size: 18px;
+  outline: 0;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
 }
 
 .submit {
   background-color: var(--blueText);
   border-radius: 12px;
   border: 0;
-  box-sizing: border-box;
   color: var(--textColor);
   cursor: pointer;
   font-size: 18px;
