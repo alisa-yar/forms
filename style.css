@@ -32,13 +32,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: fit-content;
-    min-height: 100%;
-}
-
 .header {
     font-family: var(--headerFont);
     font-weight: 600;
@@ -61,10 +54,15 @@ body {
 
 .twitter, .telegram {
     color: var(--blueText);
-    background: none;
-    text-decoration: underline;
-    text-decoration-color: var(--blueText);
+    text-decoration: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
 }
 
 .form {
