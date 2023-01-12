@@ -84,10 +84,9 @@ body {
 }
 
 input, textarea {
-  /*width: 100%;
   box-sizing: border-box;
-  border: var(--textColor) 2px;
-  text-align: left;*/
+  /*border: var(--textColor) 2px;*/
+  text-align: left;
     padding: 30px;
     border: 0;
     width: 100%;
