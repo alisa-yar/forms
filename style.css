@@ -54,7 +54,7 @@ button {
   float: right;
 }
 
-#name, #email {
+.name, .mail {
   width: 50%;
 }
 
