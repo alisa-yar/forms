@@ -72,6 +72,7 @@ body {
     background-color: transparent;
     color: var(--textColor);
     font-weight: bold;
+    text-align: center;
     border: solid var(--textColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
@@ -93,5 +94,6 @@ input, textarea {
 
 .button {
    float: relative;
+   position: relative;
 }
 
