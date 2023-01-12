@@ -2,16 +2,18 @@
 
 :root {
     --textColor: #FFFFFF;
-    --font: 'Karla', sans-serif;
     --blueText: #08B;
-    --bgColor: #3590F9;
+    --greyText: #9B9B9B;
+    --font: 'Karla', sans-serif;
+    --bgColor: #2D2D2D;
+    --bgInput: #444442;
 }
 
 html {
     margin: 0;
     hight: 100%;
 
-    background-color: #2d2d2d;
+    background-color: var(--bgColor);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,7 +27,7 @@ html {
 }
 
 body {
-   margin: 0;
+    margin: 0;
     padding: 0;
     height: fit-content;
     min-height: 100%;
@@ -35,7 +37,7 @@ body {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
     font-size: 72px;
-    color: white;
+    color: var(--textColor);
     text-align: center;
     line-height: 1.25;
     display: block;
@@ -45,7 +47,7 @@ body {
     font-family: 'Roboto', sans-serif, 'arial';
     font-weight: 400;
     font-size: 20px;
-    color: #9b9b9b;
+    color: var(--greyText);
     line-height: 1.5;
     text-align: center;
     margin: 27px auto;
@@ -86,17 +88,15 @@ body {
 }
 
 input, textarea {
-  /*width: 100%;
   box-sizing: border-box;
-  border: var(--textColor) 2px;
-  text-align: left;*/
-    padding: 30px;
-    border: 0;
-    width: 100%;
-    font-size: 1rem;
-    background-color: #444442;
-    color: white;
-    border-radius: 4px;
+  text-align: left;
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: var(--bgInput);
+  color: var(--textColor);
+  border-radius: 4px;
 }
 
 .submit {
@@ -104,15 +104,11 @@ input, textarea {
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
-  color: #eee;
+  color: var(--textColor);
   cursor: pointer;
   font-size: 18px;
   height: 50px;
   margin-top: 38px;
   text-align: center;
   width: 100%;
-}
-
-.submit:active {
-  background-color: #06B;
 }
