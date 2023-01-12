@@ -106,13 +106,13 @@ textarea:focus, input:focus {
 
 button {
   background-color: var(--blueText);
-  color: var(--textColor);
-  box-sizing: border-box;
   border-radius: 12px;
   border: 0;
   font-size: 18px;
   outline: 0;
-  width: 100%;
-  padding: 20px; 
   text-align: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: var(--textColor);
 }
