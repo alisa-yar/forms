@@ -94,6 +94,15 @@ input, textarea {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  color: var(--textColor);
+}
+
+input, select, textarea{
+    color: var(--textColor);
+}
+
+textarea:focus, input:focus {
+    color: var(--textColor);
 }
 
 button {
