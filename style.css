@@ -68,9 +68,10 @@ body {
 }
 
 .name, .mail, .links {
-    position: relative;
+    position: center;
     background-color: transparent;
     color: var(--textColor);
+    font-weight: bold;
     border: solid var(--textColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
