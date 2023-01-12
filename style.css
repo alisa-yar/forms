@@ -75,7 +75,7 @@ body {
 }
 
 .name, .mail, .links, .submit {
-   position: relative;
+   position: center;
    border-color: transparent;
    border-radius: 12px;
    font-size: 18px;
