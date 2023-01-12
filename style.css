@@ -61,9 +61,10 @@ body {
     padding: 0;
     height: fit-content;
     min-height: 100%;
+    box-sizing: border-box;
 }
 
-form {
+.form {
   max-width: 675px;
   width: 100%;
   display: block;
