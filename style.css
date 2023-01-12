@@ -25,8 +25,9 @@ html {
 }
 
 body {
+    background-color: #2d2d2d;
     margin: 0;
-    padding: 0;
+    padding-top: 85px;
     height: fit-content;
     min-height: 100%;
 }
@@ -95,7 +96,7 @@ input, textarea {
     border: 0;
     width: 100%;
     font-size: 1rem;
-    background-color: #2d2d2d;
+    background-color: #444442;
     color: white;
     border-radius: 4px;
 }
