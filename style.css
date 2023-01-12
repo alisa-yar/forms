@@ -63,12 +63,77 @@ body {
 }
 
 .form {
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+:root {
+    --textColor: #FFFFFF;
+    --blueText: #0073E5;
+    --greyText: #9B9B9B;
+    
+    --font: 'Karla', sans-serif;
+    --headerFont: 'Poppins', sans-serif, 'arial';
+    --describeFont: 'Roboto', sans-serif, 'arial';
+    
+    --bgColor: #2D2D2D;
+    --bgInput: #444442;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+
+    background-color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--font);
+    color: var(--textColor);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 72px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.description {
+    font-family: var(--describeFont);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--greyText);
+    text-align: center;
+    line-height: 1.5;
+   margin: 10px auto;
+}
+
+.twitter, .telegram {
+    color: var(--blueText);
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.form {
   max-width: 675px;
   width: 100%;
   display: block;
   position: center;
   margin: 10px auto;
-  padding: 27px;
+  padding: 20px;
   background-color: transparent;
   color: var(--textColor);
   box-sizing: border-box;
