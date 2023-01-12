@@ -32,24 +32,19 @@ body {
 }
 
 .header {
-    color: var(--textColor);
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
     text-align: center;
-    text-decoration: none;
 }
 
 .description {
-    color: var(--textColor);
-    text-align: center;
-    margin: 27px auto;
-    margin-top: 10px;
-    width: 90%;
-    max-width: 500px;
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
 }
 
 .twitter, .telegram {
@@ -60,7 +55,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.sheet {
+.input-style {
     max-width: 675px;
     width: auto;
     display: block;
@@ -100,7 +95,7 @@ input, textarea {
     border-radius: 4px;
 }
 
-.submit {
+.button {
   background-color: var(--blueText);
   border-radius: 12px;
   border: 0;
@@ -114,6 +109,6 @@ input, textarea {
   width: 100%;
 }
 
-.submit:active {
+.button:active {
   background-color: #06B;
 }
