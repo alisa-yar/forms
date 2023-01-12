@@ -85,16 +85,9 @@ body {
 }
 
 input, textarea {
-  font: var(--font);
-  max-width: 675px;
-  width: auto;
+  width: 100%;
   box-sizing: border-box;
   border: var(--textColor) 2px;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
 }
 
 .button {
