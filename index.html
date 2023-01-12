@@ -23,9 +23,9 @@
   </div>
 
   <form name="contact" method="POST" data-netlify="true">
-    <div class="sheet">
+    <div class="input-style">
       <fieldset class="name">
-        <input id="name" name="name" type="name" placeholder="Name"/>
+        <input id="name" name="name" type="name" placeholder="Name" required />
       </fieldset>
         
       <fieldset class="mail">
@@ -33,10 +33,11 @@
       </fieldset>
 
       <fieldset class="links">
-        <textarea id="links" name="links" rows="10" type="text" placeholder="Links"></textarea>
+        <textarea id="links" name="links" rows="10" type="text" placeholder="Links" required />
+        </textarea>
       </fieldset>
         
-      <button type="submit" class="submit">submit</button>
+      <button type="submit" class="button">submit</button>
         
     </div>
   </form>
