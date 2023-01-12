@@ -68,7 +68,7 @@ body {
 }
 
 .name, .mail, .links {
-    position: center;
+    position: relative;
     background-color: transparent;
     color: var(--textColor);
     font-weight: bold;
@@ -92,6 +92,6 @@ input, textarea {
 } 
 
 .button {
-   float: right;
+   float: relative;
 }
 
