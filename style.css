@@ -26,23 +26,53 @@ html {
 }
 
 body {
-  margin: 2em;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
 }
 
 .description {
-    background: #1f8dd6; /* same color as selected state on site menu */
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: #fff;
-    margin-bottom: 2em;
+    color: var(--textColor);
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.twitter, .telegram {
+    color: var(--yellowText);
+    background: none;
+    text-decoration: underline;
+    text-decoration-color: var(--yellowText);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.sheet {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.name, .mail, .links {
+    position: relative;
+    background-color: grey;
+    color: var(--textColor);
+    border: solid var(--textColor) 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    
+    
 }
 
 textarea {
@@ -57,13 +87,7 @@ textarea {
   margin: 2em 0 1em;
 }
 
-.twitter, .telegram {
-    color: var(--yellowText);
-    background: none;
-    text-decoration: underline;
-    text-decoration-color: var(--yellowText);
-    -webkit-tap-highlight-color: transparent;
-}
+
 
 .button-success {
   color: var(--textColor);
@@ -77,8 +101,4 @@ textarea {
 
 button {
   float: right;
-}
-
-.sheet {
-  width: 50%;
 }
