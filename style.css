@@ -7,49 +7,37 @@
     --bgColor: #3590F9;
 }
 
-html {
-    margin: 0;
-    hight: 100%;
-
-    background-color: #15172b;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: relative;
-    display: flex;
-    flex-direction: column;
-
-    font-family: var(--font);
-    color: var(--textColor);
-    scroll-behavior: smooth;
+body {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: fit-content;
-    min-height: 100%;
+form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
 }
 
 .header {
-    color: var(--textColor);
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
+    color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
 }
 
 .description {
-    color: var(--textColor);
-    text-align: center;
-    margin: 27px auto;
-    margin-top: 10px;
-    width: 90%;
-    max-width: 500px;
+    color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 .twitter, .telegram {
