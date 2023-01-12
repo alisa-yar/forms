@@ -45,9 +45,7 @@ html {
     font-weight: 400;
     font-size: 20px;
     color: var(--greyText);
-    line-height: 1.5;
     text-align: center;
-    margin: 27px auto;
 }
 
 .twitter, .telegram {
