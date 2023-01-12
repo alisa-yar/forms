@@ -10,8 +10,8 @@
 html {
     margin: 0;
     hight: 100%;
-    
-    background-color: var(--bgColor);
+
+    background-image: url('stars.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
