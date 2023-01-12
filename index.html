@@ -21,39 +21,30 @@
     </p>
   </div>
     
-<!-- START HERE -->
    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-   <!-- Style The Contact Form How Ever You Prefer -->
-   <link rel="stylesheet" href="style.css">
 
-  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+
+  <form class="gform pure-form pure-form-stacked" name="contact" method="POST" data-netlify="true" data-email="alisa.yar@icloud.com"
   action="https://script.google.com/macros/s/AKfycbwMxYDrufp73bKdU8gMvxFDdHRuzcR4IKQUB33B7GqwyfyZS04/exec">
-    <!-- change the form action to your script url -->
-
-    <div class="form-elements">
+      
+    <div class="form">
       <fieldset class="pure-group">
         <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="What your Mom calls you" />
+        <input id="name" name="name" placeholder="This will be also used for your personal link: yourname.algofam.tech"/>
       </fieldset>
 
       <fieldset class="pure-group">
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
-        placeholder="Tell us what's on your mind..."></textarea>
+        <label for="mail"><em>Your</em>Mail Address:</label>
+        <input id="email" name="email" type="email" value="" placeholder="Add your email address if you'd like to add analytics to your page"/>
       </fieldset>
 
       <fieldset class="pure-group">
-        <label for="email"><em>Your</em> Email Address:</label>
-        <input id="email" name="email" type="email" value=""
-        required placeholder="your.name@email.com"/>
+        <label for="links">Links:</label>
+        <textarea id="links" name="links" rows="10"
+        placeholder="Add the links that you'd like to use for your linktree page"></textarea>
       </fieldset>
-
-      <fieldset class="pure-group">
-        <label for="color">Favourite Color: </label>
-        <input id="color" name="color" placeholder="green" />
-      </fieldset>
-
+        
       <fieldset class="pure-group honeypot-field">
         <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
         <input id="honeypot" type="text" name="honeypot" value="" />
@@ -63,10 +54,8 @@
         <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
     </div>
 
-    <!-- Customise the Thankyou Message People See when they submit the form: -->
     <div class="thankyou_message" style="display:none;">
-      <h2><em>Thanks</em> for contacting us!
-        We will get back to you soon!</h2>
+      <h2>Thank you for submitting the form:)</h2>
     </div>
 
   </form>
@@ -76,4 +65,5 @@
 <!-- END -->
 
 </body>
+    
 </html>
