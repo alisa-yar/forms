@@ -2,9 +2,13 @@
 
 :root {
     --textColor: #FFFFFF;
-    --blueText: #08B;
+    --blueText: #0073E5;
     --greyText: #9B9B9B;
+    
     --font: 'Karla', sans-serif;
+    --headerFont: 'Poppins', sans-serif, 'arial';
+    --describeFont: 'Roboto', sans-serif, 'arial';
+    
     --bgColor: #2D2D2D;
     --bgInput: #444442;
 }
@@ -14,10 +18,6 @@ html {
     hight: 100%;
 
     background-color: var(--bgColor);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: relative;
     display: flex;
     flex-direction: column;
 
@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-    font-family: 'Poppins', sans-serif, 'arial';
+    font-family: var(--headerFont);
     font-weight: 600;
     font-size: 72px;
     color: var(--textColor);
@@ -44,7 +44,7 @@ body {
 }
 
 .description {
-    font-family: 'Roboto', sans-serif, 'arial';
+    font-family: var(--describeFont);
     font-weight: 400;
     font-size: 20px;
     color: var(--greyText);
