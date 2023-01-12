@@ -84,6 +84,7 @@ body {
    margin-right: 10px;
    margin-bottom: 10px;
    padding: 10px; 
+   box-sizing: border-box;
 }
 
 input, textarea, button {
@@ -95,6 +96,7 @@ input, textarea, button {
   text-align: left;
   width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .submit {
