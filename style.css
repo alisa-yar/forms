@@ -84,7 +84,6 @@ form {
    margin-right: 10px;
    margin-bottom: 10px;
    padding: 10px; 
-   box-sizing: border-box;
 }
 
 input, textarea {
@@ -96,7 +95,6 @@ input, textarea {
   text-align: left;
   width: 100%;
   padding: 20px;
-  box-sizing: border-box;
 }
 
 button {
@@ -108,7 +106,6 @@ button {
   outline: 0;
   width: 100%;
   padding: 20px;
-  box-sizing: border-box;
   border-radius: 12px;
   margin-left: 10px;
   margin-right: 10px;
