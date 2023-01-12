@@ -37,6 +37,7 @@ html {
     font-weight: 600;
     font-size: 72px;
     text-align: center;
+    margin: 10px auto;
 }
 
 .description {
@@ -66,7 +67,7 @@ body {
   width: 100%;
   display: block;
   position: center;
-  margin: 27px auto;
+  margin: 10px auto;
   padding: 20px;
   background-color: transparent;
   color: var(--textColor);
@@ -106,5 +107,5 @@ button {
   width: 100%;
   padding: 20px; 
   text-align: center;
-  margin: 27px auto;
+  margin: 10px auto;
 }
