@@ -67,6 +67,7 @@ body {
   display: block;
   margin: 27px auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .name, .mail, .links {
