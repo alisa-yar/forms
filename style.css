@@ -75,7 +75,7 @@ body {
     color: var(--textColor);
     font-weight: bold;
     text-align: center;
-    border: solid var(--textColor) 2px;
+    /*border: solid var(--textColor) 2px;*/
     border-radius: 10px;
     font-size: 1rem;
     text-align: right;
@@ -89,7 +89,6 @@ body {
 }
 
 input, textarea {
-  box-sizing: border-box;
   text-align: left;
   padding: 20px;
   border: 0;
@@ -103,7 +102,6 @@ input, textarea {
   background-color: var(--blueText);
   border-radius: 12px;
   border: 0;
-  box-sizing: border-box;
   color: var(--textColor);
   cursor: pointer;
   font-size: 18px;
