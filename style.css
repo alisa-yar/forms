@@ -3,7 +3,7 @@
 :root {
     --textColor: #FFFFFF;
     --font: 'Karla', sans-serif;
-    --yellowText: #FFDD00;
+    --blueText: #08B;
     --bgColor: #3590F9;
 }
 
@@ -53,10 +53,10 @@ body {
 }
 
 .twitter, .telegram {
-    color: var(--yellowText);
+    color: var(--blueText);
     background: none;
     text-decoration: underline;
-    text-decoration-color: var(--yellowText);
+    text-decoration-color: var(--blueText);
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -95,7 +95,7 @@ input, textarea {
 
 
 .submit {
-  background-color: #08d;
+  background-color: var(--blueText);
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
@@ -109,5 +109,5 @@ input, textarea {
 }
 
 .submit:active {
-  background-color: #06b;
+  background-color: #06B;
 }
