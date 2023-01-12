@@ -74,7 +74,7 @@ body {
   box-sizing: border-box;
 }
 
-.name, .mail, .links {
+.name, .mail, .links, .submit {
    border-color: transparent;
    border-radius: 12px;
    font-size: 18px;
@@ -102,15 +102,6 @@ input, select, textarea{
 
 textarea:focus, input:focus {
     color: var(--textColor);
-}
-
-.submit {
-   border-color: transparent;
-   border-radius: 12px;
-   font-size: 18px;
-   outline: 0;
-   padding: 10px; 
-   width: 100%;
 }
 
 button {
