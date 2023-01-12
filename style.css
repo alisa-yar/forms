@@ -70,12 +70,11 @@ body {
   margin: 27px auto;
   padding: 20px;
   box-sizing: border-box;
-  position: center;
 }
 
 .name, .mail, .links {
+   position: relative;
    background-color: transparent;
-   /*border: solid var(--textColor) 2px;*/
    border-color: transparent;
    border-radius: 12px;
    font-size: 18px;
@@ -96,19 +95,22 @@ input, textarea {
   outline: 0;
   text-align: left;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .submit {
   background-color: var(--blueText);
-  border-radius: 12px;
-  border: 0;
   color: var(--textColor);
-  cursor: pointer;
+  position: relative;
+  border-color: transparent;
+  border-radius: 12px;
   font-size: 18px;
-  height: 50px;
-  margin-top: 38px;
-  outline: 0;
   text-align: center;
+  display: block;
+  outline: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px; 
   width: 100%;
 }
