@@ -7,7 +7,7 @@
     --bgColor: #3590F9;
 }
 
-html {
+/*html {
     margin: 0;
     hight: 100%;
 
@@ -22,7 +22,7 @@ html {
     font-family: var(--font);
     color: var(--textColor);
     scroll-behavior: smooth;
-}
+}*/
 
 body {
     margin: 0;
@@ -45,6 +45,12 @@ body {
     font-size: 20px;
     color: #9b9b9b;
     line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+    .styled-input {
+        width:100%;
+    }
 }
 
 .twitter, .telegram {
