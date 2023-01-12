@@ -88,7 +88,7 @@ input, textarea {
   width: 100%;
   box-sizing: border-box;
   border: var(--textColor) 2px;
-}
+} 
 
 .button {
    float: right;
