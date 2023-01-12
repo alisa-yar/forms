@@ -70,15 +70,15 @@ body {
   margin: 27px auto;
   padding: 20px;
   box-sizing: border-box;
+  background-color: transparent;
+  color: var(--textColor);
 }
 
-.name, .mail, .links {
+.name, .mail, .links, .submit {
    position: relative;
-   background-color: transparent;
    border-color: transparent;
    border-radius: 12px;
    font-size: 18px;
-   text-align: right;
    display: block;
    outline: 0;
    margin-left: 10px;
@@ -101,16 +101,5 @@ input, textarea {
 .submit {
   background-color: var(--blueText);
   color: var(--textColor);
-  position: relative;
-  border-color: transparent;
-  border-radius: 12px;
-  font-size: 18px;
   text-align: center;
-  display: block;
-  outline: 0;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 10px; 
-  width: 100%;
 }
