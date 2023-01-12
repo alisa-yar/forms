@@ -86,11 +86,9 @@ input, textarea {
     border-radius: 4px;
 }
 
-input:focus,
-textarea:focus { outline: 0; }
+input:focus, textarea:focus { outline: 0; }
 
-input:focus ~ span,
-textarea:focus ~ span {
+input:focus ~ span, textarea:focus ~ span {
     width: 100%;
     -webkit-transition: all 0.075s ease;
     transition: all 0.075s ease;
@@ -101,7 +99,7 @@ textarea {
     min-height: 15em;
 }
 
-form {
+.input-style {
     width: 650px;
     max-width: 100%;
     margin: 20px auto 25px auto;
