@@ -16,7 +16,6 @@
 * { 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -30,6 +29,8 @@ html {
     font-family: var(--font);
     color: var(--textColor);
     scroll-behavior: smooth;
+    
+    box-sizing: border-box;
 }
 
 .header {
@@ -71,7 +72,6 @@ body {
   position: relative;
   margin: 27px auto;
   padding: 20px;
-  box-sizing: border-box;
   background-color: transparent;
   color: var(--textColor);
 }
