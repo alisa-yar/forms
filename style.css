@@ -24,24 +24,32 @@ html {
     scroll-behavior: smooth;
 }
 
-.header {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-}
-
 body {
     margin: 0;
     padding: 0;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.header {
+    color: var(--textColor);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
 }
 
 .description {
     color: var(--textColor);
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    margin-bottom: 2em;
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
 }
 
 .twitter, .telegram {
@@ -52,21 +60,36 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-tlabel { /* Uniform size & alignment */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
+.sheet {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.name, .mail, .links {
+    position: relative;
+    background-color: transparent;
+    color: var(--textColor);
+    border: solid var(--textColor) 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: right;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;  
 }
 
 input, textarea {
-  font: 1em var(--font);
-  width: 300px;
+  font: var(--font);
+  max-width: 675px;
+  width: auto;
   box-sizing: border-box;
-  border: solid var(--textColor) 2px;
-}
-
-input:focus, textarea:focus {
-  border-color: #000;
+  border: var(--textColor) 2px;
 }
 
 textarea {
@@ -75,9 +98,6 @@ textarea {
 }
 
 .button {
-  padding-left: 90px; 
+   float: right;
 }
 
-button {
-  margin-left: 0.5em;
-}
