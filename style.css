@@ -26,7 +26,7 @@ html {
 
 body {
     margin: 0;
-    padding-top: 85px;
+    padding-top: 45px;
     height: fit-content;
     min-height: 100%;
 }
@@ -67,7 +67,7 @@ body {
     margin: 27px auto;
 }
 
-.name, .mail, .links {
+/*.name, .mail, .links {
     position: center;
     background-color: transparent;
     color: var(--textColor);
@@ -84,7 +84,7 @@ body {
     padding: 10px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;  
-}
+}*/
 
 input, textarea {
   /*width: 100%;
