@@ -73,11 +73,12 @@ body {
   position: center;
 }
 
-/*.name, .mail, .links {
+.name, .mail, .links {
    background-color: transparent;
    font-weight: bold;
    text-align: center;
-   border: solid var(--textColor) 2px;
+   /*border: solid var(--textColor) 2px;*/
+   border-color: transparent;
    border-radius: 10px;
    font-size: 1rem;
    text-align: right;
@@ -86,7 +87,7 @@ body {
    margin-right: 10px;
    margin-bottom: 10px;
    padding: 10px; 
-}*/
+}
 
 input, textarea {
   background-color: var(--bgInput);
