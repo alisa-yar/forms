@@ -102,8 +102,7 @@ input, textarea {
 button {
   background-color: var(--blueText);
   color: var(--textColor);
-      box-sizing: border-box;
-  display: grid;
+  box-sizing: border-box;
   border-radius: 12px;
   border: 0;
   font-size: 18px;
