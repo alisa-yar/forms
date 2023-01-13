@@ -47,7 +47,7 @@ html {
     color: var(--greyText);
     text-align: center;
     line-height: 1.5;
-   margin: 10px auto;
+    margin: 10px auto;
 }
 
 .twitter, .telegram {
@@ -81,6 +81,7 @@ body {
    outline: 0;
    padding: 10px; 
    width: 100%;
+   box-sizing: border-box;
 }
 
 input, textarea {
@@ -96,7 +97,7 @@ input, textarea {
   color: var(--textColor);
 }
 
-input, select, textarea{
+input, textarea {
     color: var(--textColor);
 }
 
@@ -106,6 +107,7 @@ textarea:focus, input:focus {
 
 button {
   background-color: var(--blueText);
+  color: var(--textColor);
   border-radius: 12px;
   border: 0;
   font-size: 18px;
@@ -114,5 +116,4 @@ button {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  color: var(--textColor);
 }
