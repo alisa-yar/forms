@@ -39,7 +39,7 @@ body {
 .header {
     font-family: var(--headerFont);
     font-weight: 600;
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
     margin: 10px auto;
 }
