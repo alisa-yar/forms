@@ -39,7 +39,7 @@ body {
 .header {
     font-family: var(--headerFont);
     font-weight: 600;
-    font-size: 72px;
+    font-size: 36px;
     text-align: center;
     margin: 10px auto;
 }
@@ -51,7 +51,8 @@ body {
     color: var(--greyText);
     text-align: center;
     line-height: 1.5;
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .twitter, .telegram {
