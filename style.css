@@ -61,15 +61,16 @@ body {
 }
 
 .form {
-  max-width: 675px;
-  width: 100%;
-  display: block;
-  position: center;
-  margin: 10px auto;
-  padding: 20px;
-  background-color: transparent;
-  color: var(--textColor);
-  box-sizing: border-box;
+    max-width: 675px;
+    width: 100%;
+    display: block;
+    position: center;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: var(--textColor);
+    box-sizing: border-box;
 }
 
 .name, .mail, .links, .submit {
