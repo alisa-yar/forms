@@ -13,15 +13,9 @@
     --bgInput: #444442;
 }
 
-* { 
-    margin: 0;
-    padding: 0;
-}
-
 html {
-    margin: 0;
+    margin: auto;
     height: 100%;
-
     background-color: var(--bgColor);
     display: flex;
     flex-direction: column;
@@ -33,10 +27,13 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     height: fit-content;
     min-height: 100%;
+    width: 100%;
+    display: block;
+    position: center
 }
 
 .header {
