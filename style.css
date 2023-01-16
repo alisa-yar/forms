@@ -32,6 +32,13 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
+}
+
 .header {
     font-family: var(--headerFont);
     font-weight: 600;
@@ -53,13 +60,6 @@ html {
 .twitter, .telegram {
     color: var(--blueText);
     text-decoration: none;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: fit-content;
-    min-height: 100%;
 }
 
 .form {
