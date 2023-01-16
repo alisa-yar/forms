@@ -117,3 +117,32 @@ button {
   padding: 20px;
   box-sizing: border-box;
 }
+
+footer {
+    font-family: var(--describeFont);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--greyText);
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.alisa {
+    color: var(--purple);
+    background: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+    .alisa:hover {
+    color: var(--purple);
+    }
+}
+
+.alisa:active {
+    background-color: transparent;
+}
