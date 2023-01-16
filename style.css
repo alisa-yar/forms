@@ -129,7 +129,7 @@ footer {
 }
 
 .alisa {
-    color: var(--purple);
+    color: var(--blueText);
     background: none;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
@@ -137,7 +137,7 @@ footer {
 
 @media (hover: hover) {
     .alisa:hover {
-    color: var(--purple);
+    color: var(--blueText);
     }
 }
 
